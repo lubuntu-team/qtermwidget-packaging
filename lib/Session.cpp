@@ -26,7 +26,6 @@
 #include "Session.h"
 
 // Standard
-#include <assert.h>
 #include <stdlib.h>
 
 // Qt
@@ -186,6 +185,11 @@ void Session::addView(TerminalDisplay * widget)
 
         widget->setUsesMouse( _emulation->programUsesMouse() );
 
+        connect( _emulation , SIGNAL(programBracketedPasteModeChanged(bool)) ,
+                 widget , SLOT(setBracketedPasteMode(bool)) );
+
+        widget->setBracketedPasteMode(_emulation->programBracketedPasteMode());
+
         widget->setScreenWindow(_emulation->createWindow());
     }
 
@@ -343,7 +347,7 @@ void Session::setUserTitle( int what, const QString & caption )
 
     if (what == 11) {
         QString colorString = caption.section(';',0,0);
-        qDebug() << __FILE__ << __LINE__ << ": setting background colour to " << colorString;
+        //qDebug() << __FILE__ << __LINE__ << ": setting background colour to " << colorString;
         QColor backColor = QColor(colorString);
         if (backColor.isValid()) { // change color via \033]11;Color\007
             if (backColor != _modifiedBackground) {
