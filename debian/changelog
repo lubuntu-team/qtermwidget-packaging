@@ -1,3 +1,14 @@
+qtermwidget (0.7.0-1) experimental; urgency=medium
+
+  * Cherry-picking upstream release: 0.7.0
+  * Bumped compat to 10
+  * Bumped build dependency debhelper (>= 10)
+  * Bumped build dependency liblxqt-dev (>= 0.11.0)
+  * Removed --parallel from rules, standard in compat 10
+  * Fixed Symbols for amd64
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 25 Sep 2016 22:07:18 +0200
+
 qtermwidget (0.6.1~85-ge6253c0-1) experimental; urgency=medium
 
   * Cherry-picking upstream version 0.6.1~85-ge6253c0.
