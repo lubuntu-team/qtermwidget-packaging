@@ -909,7 +909,6 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QHash<int, Konsole::Filter::HotSpot*>::values(int const&) const@Base" 0.6.0
  (c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::deleteNode2(QHashData::Node*)@Base" 0.6.0
  (c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::duplicateNode(QHashData::Node*, void*)@Base" 0.6.0
- (c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::erase(QHash<int, Konsole::KeyboardTranslator::Entry>::iterator)@Base" 0.6.0
  (c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::findNode(int const&, unsigned int) const@Base" 0.7.0
  (c++)"QHash<int, QString>::findNode(int const&, unsigned int) const@Base" 0.7.0
 
@@ -1223,7 +1222,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"vtable for QTermWidget@Base" 0.6.0
  (c++)"vtable for SearchBar@Base" 0.6.0
 
-## optional symbols
+# optional symbols
  (optional|c++)"add_custom_color_scheme_dir(QString const&)@Base" 0.7.0
  (optional|c++)"get_color_schemes_dirs()@Base" 0.7.0
  (optional|c++)"get_kb_layout_dir()@Base" 0.6.0
@@ -1231,8 +1230,8 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (optional|c++)"string_width(QString const&)@Base" 0.6.0
  (optional|c++)"operator+(QString const&, char)@Base" 0.6.0
  (optional|c++)"QByteArray::~QByteArray()@Base" 0.6.0
- (optional|c++)"QHash<Konsole::Session*, bool>::detach_helper()@Base" 0.6.0
 
+ (optional|c++)"QHash<Konsole::Session*, bool>::detach_helper()@Base" 0.6.0
  (optional|c++)"QHash<Konsole::Session*, bool>::findNode(Konsole::Session* const&, unsigned int*) const@Base" 0.7.0
 
  (optional|c++)"QHash<QString, Konsole::ColorScheme const*>::detach_helper()@Base" 0.6.0
@@ -1240,6 +1239,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (optional|c++)"QHash<QString, Konsole::KeyboardTranslator*>::detach_helper()@Base" 0.6.0
  (optional|c++)"QHash<QString, Konsole::KeyboardTranslator*>::findNode(QString const&, unsigned int*) const@Base" 0.6.0
  (optional|c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::detach_helper()@Base" 0.6.0
+ (optional|c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::erase(QHash<int, Konsole::KeyboardTranslator::Entry>::iterator)@Base" 0.6.0
  (optional|c++)"QHash<int, QString>::deleteNode2(QHashData::Node*)@Base" 0.6.0
  (optional|c++)"QHash<int, QString>::duplicateNode(QHashData::Node*, void*)@Base" 0.6.0
 
@@ -1296,7 +1296,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (optional|c++)"QVector<unsigned char>::~QVector()@Base" 0.6.0
  (optional|c++)"QVector<unsigned char>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)@Base" 0.6.0
 
-## arch-bits=32
+# arch-bits=32
  (arch-bits=32|c++)"Konsole::BlockArray::at(unsigned int)@Base" 0.6.0
  (arch-bits=32|c++)"Konsole::BlockArray::decreaseBuffer(unsigned int)@Base" 0.6.0
  (arch-bits=32|c++)"Konsole::BlockArray::has(unsigned int) const@Base" 0.6.0
@@ -1308,12 +1308,12 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (arch-bits=32|c++)"Konsole::HistoryScrollBlockArray::HistoryScrollBlockArray(unsigned int)@Base" 0.6.0
  (arch-bits=32|c++)"Konsole::HistoryTypeBlockArray::HistoryTypeBlockArray(unsigned int)@Base" 0.6.0
 
-## arch-bits=32 optional
+# arch-bits=32 optional
  (optional|arch-bits=32|c++)"QHash<int, unsigned int>::deleteNode2(QHashData::Node*)@Base" 0.6.0
  (optional|arch-bits=32|c++)"QHash<int, unsigned int>::detach_helper()@Base" 0.6.0
  (optional|arch-bits=32|c++)"QHash<int, unsigned int>::duplicateNode(QHashData::Node*, void*)@Base" 0.6.0
 
-## arch-bits=64
+# arch-bits=64
  (arch-bits=64|c++)"Konsole::BlockArray::at(unsigned long)@Base" 0.6.0
  (arch-bits=64|c++)"Konsole::BlockArray::decreaseBuffer(unsigned long)@Base" 0.6.0
  (arch-bits=64|c++)"Konsole::BlockArray::has(unsigned long) const@Base" 0.6.0
@@ -1325,20 +1325,27 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (arch-bits=64|c++)"Konsole::HistoryScrollBlockArray::HistoryScrollBlockArray(unsigned long)@Base" 0.6.0
  (arch-bits=64|c++)"Konsole::HistoryTypeBlockArray::HistoryTypeBlockArray(unsigned long)@Base" 0.6.0
 
-## arch-bits=64 optional
+# arch-bits=64 optional
  (optional|arch-bits=64|c++)"QHash<int, unsigned long>::deleteNode2(QHashData::Node*)@Base" 0.6.0
  (optional|arch-bits=64|c++)"QHash<int, unsigned long>::detach_helper()@Base" 0.6.0
  (optional|arch-bits=64|c++)"QHash<int, unsigned long>::duplicateNode(QHashData::Node*, void*)@Base" 0.6.0
 
-## some really weird symbols
-## i don't want do break build with this one, so setting them optional is a good idea for now
-## if the symbols file don't fully match, we can refine them with the output of the build
+# some really weird symbols
+# i don't want do break build with this one, so setting them optional is a good idea for now
+# if the symbols file don't fully match, we can refine them with the output of the build
  (optional|arch= amd64 arm64 i386 kfreebsd64 m86k powerpc ppc64 ppc64el s390x sh4 sparc64 x32 |c++)"QHash<QString, Konsole::ColorScheme const*>::values() const@Base" 0.6.0
  (optional|arch= armel armhf alpha hppa mips mipsel mips64el |c++)"QList<Konsole::ColorScheme const*>::append(Konsole::ColorScheme const* const&)@Base" 0.6.0
 
-## missed in arm64, armel, mips, mipsel, powerpc, ppc64el, s390x, alpha, hppa,
-## m68k, mips64el, ppc64, sh4, sparc64
+# missed in arm64, armel, mips, mipsel, powerpc, ppc64el, s390x, alpha, hppa,
+# m68k, mips64el, ppc64, sh4, sparc64
  (optional|c++)"QList<QString>::operator+=(QList<QString> const&)@Base" 0.6.0
 
-## missed in armel, mips, mipsel, alpha, hppa, mips64el, sparc64
+# missed in armel, mips, mipsel, alpha, hppa, mips64el, sparc64
  (optional|c++)"QHash<int, QString>::keys() const@Base" 0.6.0
+
+# new, possible Qt 5.7
+ (optional|c++)"QHash<Konsole::Session*, bool>::findNode(Konsole::Session* const&, unsigned int) const@Base" 0.7.0
+ (optional|c++)"QHash<Konsole::Session*, bool>::remove(Konsole::Session* const&)@Base" 0.7.0
+ (optional|c++)"QHash<QString, Konsole::ColorScheme const*>::values() const@Base" 0.7.0
+ (optional|c++)"QHash<int, Konsole::KeyboardTranslator::Entry>::erase(QHash<int, Konsole::KeyboardTranslator::Entry>::const_iterator)@Base" 0.7.0
+ (optional|c++)"QHash<int, unsigned int>::findNode(int const&, unsigned int) const@Base" 0.7.0

@@ -1,3 +1,9 @@
+qtermwidget (0.7.0-2) experimental; urgency=medium
+
+  * Mark some symbols optional
+
+ -- Alf Gaida <agaida@siduction.org>  Mon, 26 Sep 2016 21:01:01 +0200
+
 qtermwidget (0.7.0-1) experimental; urgency=medium
 
   * Cherry-picking upstream release: 0.7.0
