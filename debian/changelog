@@ -1,3 +1,13 @@
+qtermwidget (0.7.0-3) experimental; urgency=medium
+
+  * Followed Multiarch hinter suggestions
+    - qtermwidget5-data marked as Multi-Arch: foreign
+    - libqtermwidget5-0 marked as Multi-Arch: same
+    - libqtermwidget5-0-dev marked as Multi-Arch: same
+  * simplify optional symbols 
+
+ -- Alf Gaida <agaida@siduction.org>  Tue, 27 Sep 2016 18:03:03 +0200
+
 qtermwidget (0.7.0-2) experimental; urgency=medium
 
   * Mark some symbols optional
