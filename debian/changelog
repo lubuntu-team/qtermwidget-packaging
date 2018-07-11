@@ -1,6 +1,7 @@
 qtermwidget (0.9.0-1ubuntu1) UNRELEASED; urgency=medium
 
   * Update the maintainer and Vcs-* for maintaining in Lubuntu.
+  * Add patch reworking memory management of filter-related objects.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 22:07:08 -0500
 

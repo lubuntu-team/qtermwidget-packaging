@@ -1,0 +1,171 @@
+Description: Rework memory management of filter-related objects
+Author: Yen Chi Hsuan <yan12125@gmail.com>
+Origin: upstream
+Bug: https://github.com/lxqt/qterminal/issues/358
+Applied-Upstream: commit:0154e03
+Last-Update: 2018-07-10
+--- a/lib/Filter.cpp
++++ b/lib/Filter.cpp
+@@ -22,6 +22,7 @@
+ 
+ // System
+ #include <iostream>
++#include <memory>
+ 
+ // Qt
+ #include <QAction>
+@@ -195,7 +196,15 @@ Filter::~Filter()
+ }
+ void Filter::reset()
+ {
+-    qDeleteAll(_hotspotList);
++    QListIterator<HotSpot*> iter(_hotspotList);
++    while (iter.hasNext())
++    {
++        HotSpot* currentHotSpot = iter.next();
++        if (currentHotSpot->hasAnotherParent()) {
++            continue;
++        }
++        delete currentHotSpot;
++    }
+     _hotspots.clear();
+     _hotspotList.clear();
+ }
+@@ -287,10 +296,13 @@ Filter::HotSpot::HotSpot(int startLine ,
+     , _endLine(endLine)
+     , _endColumn(endColumn)
+     , _type(NotSpecified)
++    , _hasAnotherParent(false)
+ {
+ }
+-QList<QAction*> Filter::HotSpot::actions()
++QList<QAction*> Filter::HotSpot::actions(QWidget* parent)
+ {
++    Q_UNUSED(parent);
++
+     return QList<QAction*>();
+ }
+ int Filter::HotSpot::startLine() const
+@@ -502,14 +514,28 @@ FilterObject* UrlFilter::HotSpot::getUrl
+     return _urlObject;
+ }
+ 
+-QList<QAction*> UrlFilter::HotSpot::actions()
++class UrlAction : public QAction {
++public:
++    UrlAction(QWidget* parent, std::shared_ptr<UrlFilter::HotSpot> hotspotPtr)
++        : QAction(parent)
++        , _hotspotPtr(hotspotPtr)
++    {
++    }
++
++private:
++    std::shared_ptr<UrlFilter::HotSpot> _hotspotPtr;
++};
++
++QList<QAction*> UrlFilter::HotSpot::actions(QWidget* parent)
+ {
++    this->_hasAnotherParent = true;
+     QList<QAction*> list;
+ 
+     const UrlType kind = urlType();
+ 
+-    QAction* openAction = new QAction(_urlObject);
+-    QAction* copyAction = new QAction(_urlObject);;
++    std::shared_ptr<UrlFilter::HotSpot> hotspotPtr(this);
++    UrlAction* openAction = new UrlAction(parent, hotspotPtr);
++    UrlAction* copyAction = new UrlAction(parent, hotspotPtr);
+ 
+     Q_ASSERT( kind == StandardUrl || kind == Email );
+ 
+--- a/lib/Filter.h
++++ b/lib/Filter.h
+@@ -115,19 +115,22 @@ public:
+         * Returns a list of actions associated with the hotspot which can be used in a
+         * menu or toolbar
+         */
+-       virtual QList<QAction*> actions();
++       virtual QList<QAction*> actions(QWidget* parent);
++
++       bool hasAnotherParent() const { return _hasAnotherParent; }
+ 
+     protected:
+        /** Sets the type of a hotspot.  This should only be set once */
+        void setType(Type type);
+ 
++       bool   _hasAnotherParent;
++
+     private:
+        int    _startLine;
+        int    _startColumn;
+        int    _endLine;
+        int    _endColumn;
+        Type _type;
+-
+     };
+ 
+     /** Constructs a new filter. */
+@@ -256,7 +259,7 @@ public:
+ 
+         FilterObject* getUrlObject() const;
+ 
+-        virtual QList<QAction*> actions();
++        virtual QList<QAction*> actions(QWidget* parent);
+ 
+         /**
+          * Open a web browser at the current URL.  The url itself can be determined using
+--- a/lib/TerminalDisplay.cpp
++++ b/lib/TerminalDisplay.cpp
+@@ -1957,14 +1957,14 @@ void TerminalDisplay::mousePressEvent(QM
+   }
+ }
+ 
+-QList<QAction*> TerminalDisplay::filterActions(const QPoint& position)
++QList<QAction*> TerminalDisplay::filterActions(const QPoint& position, QWidget* parent)
+ {
+   int charLine, charColumn;
+   getCharacterPosition(position,charLine,charColumn);
+ 
+   Filter::HotSpot* spot = _filterChain->hotSpotAt(charLine,charColumn);
+ 
+-  return spot ? spot->actions() : QList<QAction*>();
++  return spot ? spot->actions(parent) : QList<QAction*>();
+ }
+ 
+ void TerminalDisplay::mouseMoveEvent(QMouseEvent* ev)
+--- a/lib/TerminalDisplay.h
++++ b/lib/TerminalDisplay.h
+@@ -158,7 +158,7 @@ public:
+      * Returns a list of menu actions created by the filters for the content
+      * at the given @p position.
+      */
+-    QList<QAction*> filterActions(const QPoint& position);
++    QList<QAction*> filterActions(const QPoint& position, QWidget* parent);
+ 
+     /** Returns true if the cursor is set to blink or false otherwise. */
+     bool blinkingCursor() { return _hasBlinkingCursor; }
+--- a/lib/qtermwidget.cpp
++++ b/lib/qtermwidget.cpp
+@@ -694,9 +694,9 @@ Filter::HotSpot* QTermWidget::getHotSpot
+     return m_impl->m_terminalDisplay->filterChain()->hotSpotAt(row, column);
+ }
+ 
+-QList<QAction*> QTermWidget::filterActions(const QPoint& position)
++QList<QAction*> QTermWidget::filterActions(const QPoint& position, QWidget* parent)
+ {
+-    return m_impl->m_terminalDisplay->filterActions(position);
++    return m_impl->m_terminalDisplay->filterActions(position, parent);
+ }
+ 
+ int QTermWidget::getPtySlaveFd() const
+--- a/lib/qtermwidget.h
++++ b/lib/qtermwidget.h
+@@ -186,7 +186,7 @@ public:
+     /*
+      * Proxy for TerminalDisplay::filterActions
+      * */
+-    QList<QAction*> filterActions(const QPoint& position);
++    QList<QAction*> filterActions(const QPoint& position, QWidget* parent);
+ 
+     /**
+      * Returns a pty slave file descriptor.
