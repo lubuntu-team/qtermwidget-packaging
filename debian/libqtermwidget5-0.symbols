@@ -12,7 +12,6 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::copyAvailable(bool)@Base" 0.6.0
  (c++)"QTermWidget::copyClipboard()@Base" 0.6.0
  (c++)"QTermWidget::cursorChanged(Konsole::Emulation::KeyboardCursorShape, bool)@Base" 0.8.0
- (c++)"QTermWidget::filterActions(QPoint const&)@Base" 0.7.1
  (c++)"QTermWidget::find()@Base" 0.6.0
  (c++)"QTermWidget::findNext()@Base" 0.6.0
  (c++)"QTermWidget::findPrevious()@Base" 0.6.0
@@ -94,6 +93,11 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
+ (c++)"QTermWidget::filterActions(QPoint const&, QWidget*)@Base" 0.9.0
+ (c++)"typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
+ (c++)"typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
+ (c++)"typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
+ (c++)"typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
  (c++)"typeinfo for QTermWidget@Base" 0.6.0
  (c++)"typeinfo name for QTermWidget@Base" 0.6.0
