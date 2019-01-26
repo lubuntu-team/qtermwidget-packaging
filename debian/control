@@ -4,7 +4,7 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 11~),
+Build-Depends: debhelper (>= 12),
                cmake,
                libutf8proc-dev,
                lxqt-build-tools (>= 0.5.0~),
