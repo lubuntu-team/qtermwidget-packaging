@@ -5,6 +5,7 @@ qtermwidget (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump Standards-version to 4.3.0, no changes needed.
   * Bump debhelper compat to 12, no changes needed.
   * Add qtermwidget-l10n package.
+  * Update symbols from build logs.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:33:39 -0600
 

@@ -93,6 +93,8 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
+ (c++)"QTermWidget::setMargin(int)@Base" 0.14.0
+ (c++)"QTermWidget::getMargin() const@Base" 0.14.0
  (c++)"QTermWidget::filterActions(QPoint const&, QWidget*)@Base" 0.9.0
  (c++)"typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
  (c++)"typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
