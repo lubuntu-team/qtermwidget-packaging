@@ -1,4 +1,4 @@
-qtermwidget (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
+qtermwidget (0.14.0-0ubuntu1) disco; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
@@ -7,7 +7,7 @@ qtermwidget (0.14.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add qtermwidget-l10n package.
   * Update symbols from build logs.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:33:39 -0600
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:43:05 -0600
 
 qtermwidget (0.9.0-1ubuntu2) cosmic; urgency=medium
 
