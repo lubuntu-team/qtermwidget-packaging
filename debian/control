@@ -57,6 +57,8 @@ Package: qtermwidget-l10n
 Architecture: all
 Multi-Arch: foreign
 Section: localization
+Breaks: qtermwidget-l10n (<< 0.14.0)
+Replaces: qtermwidget-l10n (<< 0.14.0)
 Depends: ${misc:Depends},
          qttranslations5-l10n
 Description: Language package for qtermwidget
