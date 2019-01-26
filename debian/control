@@ -52,3 +52,12 @@ Description: Terminal emulator widget for Qt 5 (data files)
  built-in console or terminal emulation widget.
  .
  This package provides data files like keyboard layouts and color schemes.
+
+Package: qtermwidget-l10n
+Architecture: all
+Multi-Arch: foreign
+Section: localization
+Depends: ${misc:Depends},
+         qttranslations5-l10n
+Description: Language package for qtermwidget
+ This package contains the l10n files needed by qtermwidget.
