@@ -1,6 +1,7 @@
 qtermwidget (0.14.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Remove memory management patch which causes crashes.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:40:57 -0600
 
