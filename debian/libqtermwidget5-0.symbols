@@ -19,6 +19,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::flowControlEnabled()@Base" 0.6.0
  (c++)"QTermWidget::getHotSpotAt(QPoint const&) const@Base" 0.6.0
  (c++)"QTermWidget::getHotSpotAt(int, int) const@Base" 0.6.0
+ (c++)"QTermWidget::getMargin() const@Base" 0.14.0
  (c++)"QTermWidget::getPtySlaveFd() const@Base" 0.6.0
  (c++)"QTermWidget::getSelectionEnd(int&, int&)@Base" 0.6.0
  (c++)"QTermWidget::getSelectionStart(int&, int&)@Base" 0.6.0
@@ -60,6 +61,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::setHistorySize(int)@Base" 0.6.0
  (c++)"QTermWidget::setKeyBindings(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::setKeyboardCursorShape(Konsole::Emulation::KeyboardCursorShape)@Base" 0.8.0
+ (c++)"QTermWidget::setMargin(int)@Base" 0.14.0
  (c++)"QTermWidget::setMonitorActivity(bool)@Base" 0.6.0
  (c++)"QTermWidget::setMonitorSilence(bool)@Base" 0.6.0
  (c++)"QTermWidget::setMotionAfterPasting(int)@Base" 0.6.0
@@ -93,13 +95,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
- (c++)"QTermWidget::setMargin(int)@Base" 0.14.0
- (c++)"QTermWidget::getMargin() const@Base" 0.14.0
- (c++)"QTermWidget::filterActions(QPoint const&, QWidget*)@Base" 0.9.0
- (c++)"typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
- (c++)"typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
- (c++)"typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
- (c++)"typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>@Base" 0.9.0
+ (c++)"QTermWidget::filterActions(QPoint const&)@Base" 0.14.1
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
  (c++)"typeinfo for QTermWidget@Base" 0.6.0
  (c++)"typeinfo name for QTermWidget@Base" 0.6.0
