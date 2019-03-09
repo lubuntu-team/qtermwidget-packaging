@@ -4,8 +4,8 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
 XSBC-Original-Maintainer: LXQt Packaging Team <pkg-lxqt-devel@lists.alioth.debian.org>
 Section: libs
 Priority: optional
-Build-Depends: debhelper (>= 12),
-               cmake,
+Build-Depends: cmake,
+               debhelper (>= 12),
                libutf8proc-dev,
                lxqt-build-tools (>= 0.6.0),
                qtbase5-dev
@@ -19,11 +19,10 @@ Homepage: https://github.com/lxqt/qtermwidget
 Package: libqtermwidget5-0
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends},
+Depends: qtermwidget5-data (= ${source:Version}),
          ${misc:Depends},
-         qtermwidget5-data (= ${source:Version})
-Recommends: qtermwidget-l10n,
-            fonts-hack-ttf
+         ${shlibs:Depends}
+Recommends: fonts-hack-ttf, qtermwidget-l10n
 Pre-Depends: ${misc:Pre-Depends}
 Description: Terminal emulator widget for Qt 5 (shared libraries)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
@@ -35,8 +34,7 @@ Package: libqtermwidget5-0-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: ${misc:Depends},
-         libqtermwidget5-0 (= ${binary:Version})
+Depends: libqtermwidget5-0 (= ${binary:Version}), ${misc:Depends}
 Description: Terminal emulator widget for Qt 5 (development files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
@@ -59,7 +57,6 @@ Multi-Arch: foreign
 Section: localization
 Breaks: qtermwidget-l10n (<< 0.14.0)
 Replaces: qtermwidget-l10n (<< 0.14.0)
-Depends: ${misc:Depends},
-         qttranslations5-l10n
+Depends: qttranslations5-l10n, ${misc:Depends}
 Description: Language package for qtermwidget
  This package contains the l10n files needed by qtermwidget.
