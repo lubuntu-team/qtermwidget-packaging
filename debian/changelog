@@ -1,3 +1,9 @@
+qtermwidget (0.14.1-0ubuntu3) focal; urgency=medium
+
+  * Update symbols from build logs.
+
+ -- apt-ghetto <apt-ghetto@lubuntu.me>  Wed, 04 Dec 2019 19:26:46 +0100
+
 qtermwidget (0.14.1-0ubuntu2) disco; urgency=medium
 
   * Update symbols from build logs.
