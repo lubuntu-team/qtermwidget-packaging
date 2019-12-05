@@ -41,7 +41,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::qt_metacast(char const*)@Base" 0.6.0
  (c++)"QTermWidget::receivedData(QString const&)@Base" 0.8.0
  (c++)"QTermWidget::resizeEvent(QResizeEvent*)@Base" 0.6.0
- (c++)"QTermWidget::saveHistory(QIODevice*)@Base" 0.14.2+git20191204
+ (c++)"QTermWidget::saveHistory(QIODevice*)@Base" 0.14.1+git20191205
  (c++)"QTermWidget::screenColumnsCount()@Base" 0.6.0
  (c++)"QTermWidget::screenLinesCount()@Base" 0.6.0
  (c++)"QTermWidget::scrollToEnd()@Base" 0.6.0
@@ -49,7 +49,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::selectedText(bool)@Base" 0.6.0
  (c++)"QTermWidget::selectionChanged(bool)@Base" 0.6.0
  (c++)"QTermWidget::sendData(char const*, int)@Base" 0.6.0
- (c++)"QTermWidget::sendKeyEvent(QKeyEvent*)@Base" 0.14.2+git20191204
+ (c++)"QTermWidget::sendKeyEvent(QKeyEvent*)@Base" 0.14.1+git20191205
  (c++)"QTermWidget::sendText(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::sessionFinished()@Base" 0.6.0
  (c++)"QTermWidget::setArgs(QStringList const&)@Base" 0.6.0
@@ -57,7 +57,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::setBidiEnabled(bool)@Base" 0.9.0~
  (c++)"QTermWidget::setBlinkingCursor(bool)@Base" 0.8.0
  (c++)"QTermWidget::setColorScheme(QString const&)@Base" 0.6.0
- (c++)"QTermWidget::setDrawLineChars(bool)@Base" 0.14.2+git20191204
+ (c++)"QTermWidget::setDrawLineChars(bool)@Base" 0.14.1+git20191205
  (c++)"QTermWidget::setEnvironment(QStringList const&)@Base" 0.6.0
  (c++)"QTermWidget::setFlowControlEnabled(bool)@Base" 0.6.0
  (c++)"QTermWidget::setFlowControlWarningEnabled(bool)@Base" 0.6.0
