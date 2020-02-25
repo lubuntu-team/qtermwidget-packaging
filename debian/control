@@ -46,6 +46,8 @@ Package: qtermwidget5-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Breaks: qtermwidget-l10n (<< 0.14.1-2~)
+Replaces: qtermwidget-l10n (<< 0.14.1-2~)
 Description: Terminal emulator widget for Qt 5 (data files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.

@@ -1,3 +1,11 @@
+qtermwidget (0.14.1-3ubuntu1) focal; urgency=medium
+
+  * debian/control: Add Breaks/Replaces on qtermwidget-l10n to
+    qtermwidget5-data. Fixes upgrade from 0.14.1-0ubuntu3 or earlier.
+    (LP: #1864170)
+
+ -- Rik Mills <rikmills@kde.org>  Tue, 25 Feb 2020 16:24:33 +0000
+
 qtermwidget (0.14.1-3) unstable; urgency=medium
 
   * Bumped Standards-Version to 4.5.0, no changes needed
