@@ -1,52 +1,55 @@
-qtermwidget (0.14.1-0ubuntu3) focal; urgency=medium
+qtermwidget (0.14.1-3ubuntu1) focal; urgency=medium
 
-  * Update symbols from build logs.
+  * debian/control: Add Breaks/Replaces on qtermwidget-l10n to
+    qtermwidget5-data. Fixes upgrade from 0.14.1-0ubuntu3 or earlier.
+    (LP: #1864170)
 
- -- apt-ghetto <apt-ghetto@lubuntu.me>  Wed, 04 Dec 2019 19:26:46 +0100
+ -- Rik Mills <rikmills@kde.org>  Tue, 25 Feb 2020 16:24:33 +0000
 
-qtermwidget (0.14.1-0ubuntu2) disco; urgency=medium
+qtermwidget (0.14.1-3) unstable; urgency=medium
 
-  * Update symbols from build logs.
+  * Bumped Standards-Version to 4.5.0, no changes needed
+  * Removed the not existing package qtermwidget-l10n from recommends,
+    thanks @wxl, nice finding. 
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 13:02:19 -0600
+ -- Alf Gaida <agaida@siduction.org>  Sun, 23 Feb 2020 22:16:09 +0100
 
-qtermwidget (0.14.1-0ubuntu1) disco; urgency=medium
+qtermwidget (0.14.1-2) unstable; urgency=medium
 
-  * New upstream release.
-  * Remove memory management patch which causes crashes.
-  * Run wrap-and-sort.
+  * Switched to gbp
+  * Bumped Standards-Version to 4.4.1, no changes needed
+  * Fixed one symbol for ia64
+  * Added Rules-Requires-Root: no to make lintian happy
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Mar 2019 12:42:15 -0600
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Oct 2019 00:04:08 +0200
 
-qtermwidget (0.14.0-0ubuntu2) disco; urgency=medium
+qtermwidget (0.14.1-1) unstable; urgency=medium
 
-  * Add Breaks/Replaces on qtermwidget-l10n.
+  * Cherry-picking upstream release: 0.14.1.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 26 Jan 2019 10:17:31 -0600
+ -- Alf Gaida <agaida@siduction.org>  Tue, 26 Feb 2019 01:00:03 +0100
 
-qtermwidget (0.14.0-0ubuntu1) disco; urgency=medium
+qtermwidget (0.14.0-1) unstable; urgency=medium
 
-  * New upstream release.
-    - Bump build dependencies.
-  * Bump Standards-version to 4.3.0, no changes needed.
-  * Bump debhelper compat to 12, no changes needed.
-  * Add qtermwidget-l10n package.
-  * Update symbols from build logs.
+  * Cherry-picking upstream release: 0.14.0.
+  * Bumped Standards to 4.3.0, no changes needed
+  * Dropped d/compat, use debhelper-compat = 12, no changes needed
+  * Fixed years in d/copyright
+  * Bumped minimum version lxqt-build-tools (>= 0.6.0~)
+  * Removed obsolete PULL_TRANSLATIONS= OFF from dh_auto_configure
+  * Added Build-Depends-Package field to symbols
+  * Installed new translations in the data package.
+  * Added two new symbols
+  * Added d/upstream/metadata
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 25 Jan 2019 23:43:05 -0600
+ -- Alf Gaida <agaida@siduction.org>  Sun, 27 Jan 2019 15:29:16 +0100
 
-qtermwidget (0.9.0-1ubuntu2) cosmic; urgency=medium
+qtermwidget (0.9.0-2) unstable; urgency=medium
 
-  * Update symbols from build logs.
+  * Recommend fonts-hack instead of fonts-hack-ttf (Closes: #907279)
+  * Bumped Standards to 4.2.1, no changes needed
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 22:29:14 -0500
-
-qtermwidget (0.9.0-1ubuntu1) cosmic; urgency=medium
-
-  * Update the maintainer and Vcs-* for maintaining in Lubuntu.
-  * Add patch reworking memory management of filter-related objects.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Tue, 10 Jul 2018 22:19:52 -0500
+ -- Alf Gaida <agaida@siduction.org>  Sun, 16 Sep 2018 14:16:19 +0200
 
 qtermwidget (0.9.0-1) unstable; urgency=medium
 
