@@ -5,8 +5,8 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
-               cmake,
+Build-Depends: cmake,
+               debhelper-compat (= 12),
                libutf8proc-dev,
                lxqt-build-tools (>= 0.7.0),
                qtbase5-dev
@@ -19,9 +19,9 @@ Rules-Requires-Root: no
 Package: libqtermwidget5-0
 Architecture: any
 Multi-Arch: same
-Depends: ${shlibs:Depends},
+Depends: qtermwidget5-data (= ${source:Version}),
          ${misc:Depends},
-         qtermwidget5-data (= ${source:Version})
+         ${shlibs:Depends}
 Recommends: fonts-hack
 Pre-Depends: ${misc:Pre-Depends}
 Description: Terminal emulator widget for Qt 5 (shared libraries)
@@ -34,8 +34,7 @@ Package: libqtermwidget5-0-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: ${misc:Depends},
-         libqtermwidget5-0 (= ${binary:Version})
+Depends: libqtermwidget5-0 (= ${binary:Version}), ${misc:Depends}
 Description: Terminal emulator widget for Qt 5 (development files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
