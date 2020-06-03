@@ -99,6 +99,148 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::workingDirectory()@Base" 0.6.0
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
+ (c++)"Konsole::FilterChain::removeFilter(Konsole::Filter*)@Base" 0.15.0
+ (c++)"Konsole::FilterChain::containsFilter(Konsole::Filter*)@Base" 0.15.0
+ (c++)"Konsole::FilterChain::clear()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::reset()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::process()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::addFilter(Konsole::Filter*)@Base" 0.15.0
+ (c++)"Konsole::FilterChain::setBuffer(QString const*, QList<int> const*)@Base" 0.15.0
+ (c++)"Konsole::FilterChain::~FilterChain()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::~FilterChain()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::~FilterChain()@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::newHotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::HotSpot::setCapturedTexts(QStringList const&)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::HotSpot::activate(QString const&)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::process()@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::setRegExp(QRegExp const&)@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::RegExpFilter()@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::RegExpFilter()@Base" 0.15.0
+ (c++)"Konsole::Filter::addHotSpot(Konsole::Filter::HotSpot*)@Base" 0.15.0
+ (c++)"Konsole::Filter::getLineColumn(int, int&, int&)@Base" 0.15.0
+ (c++)"Konsole::Filter::reset()@Base" 0.15.0
+ (c++)"Konsole::Filter::buffer()@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::actions()@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::setType(Konsole::Filter::HotSpot::Type)@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::Filter::setBuffer(QString const*, QList<int> const*)@Base" 0.15.0
+ (c++)"Konsole::Filter::Filter()@Base" 0.15.0
+ (c++)"Konsole::Filter::Filter()@Base" 0.15.0
+ (c++)"Konsole::Filter::~Filter()@Base" 0.15.0
+ (c++)"Konsole::Filter::~Filter()@Base" 0.15.0
+ (c++)"Konsole::Filter::~Filter()@Base" 0.15.0
+ (c++)"Konsole::Emulation::sendString(char const*, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setHistory(Konsole::HistoryType const&)@Base" 0.15.0
+ (c++)"Konsole::Emulation::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.15.0
+ (c++)"Konsole::Emulation::qt_metacast(char const*)@Base" 0.15.0
+ (c++)"Konsole::Emulation::receiveChar(wchar_t)@Base" 0.15.0
+ (c++)"Konsole::Emulation::receiveData(char const*, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::clearHistory()@Base" 0.15.0
+ (c++)"Konsole::Emulation::createWindow()@Base" 0.15.0
+ (c++)"Konsole::Emulation::sendKeyEvent(QKeyEvent*)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setImageSize(int, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::titleChanged(int, QString const&)@Base" 0.15.0
+ (c++)"Konsole::Emulation::cursorChanged(Konsole::Emulation::KeyboardCursorShape, bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::outputChanged()@Base" 0.15.0
+ (c++)"Konsole::Emulation::writeToStream(Konsole::TerminalCharacterDecoder*, int, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::bufferedUpdate()@Base" 0.15.0
+ (c++)"Konsole::Emulation::lockPtyRequest(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::sendMouseEvent(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setKeyBindings(QString const&)@Base" 0.15.0
+ (c++)"Konsole::Emulation::useUtf8Request(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::zmodemDetected()@Base" 0.15.0
+ (c++)"Konsole::Emulation::imageSizeChanged(int, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::staticMetaObject@Base" 0.15.0
+ (c++)"Konsole::Emulation::usesMouseChanged(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::imageResizeRequest(QSize const&)@Base" 0.15.0
+ (c++)"Konsole::Emulation::imageSizeInitialized()@Base" 0.15.0
+ (c++)"Konsole::Emulation::flowControlKeyPressed(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::programUsesMouseChanged(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::bracketedPasteModeChanged(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::changeTabTextColorRequest(int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::profileChangeCommandReceived(QString const&)@Base" 0.15.0
+ (c++)"Konsole::Emulation::programBracketedPasteModeChanged(bool)@Base" 0.15.0
+ (c++)"Konsole::Emulation::sendData(char const*, int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setCodec(Konsole::Emulation::EmulationCodec)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setCodec(QTextCodec const*)@Base" 0.15.0
+ (c++)"Konsole::Emulation::showBulk()@Base" 0.15.0
+ (c++)"Konsole::Emulation::stateSet(int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::setScreen(int)@Base" 0.15.0
+ (c++)"Konsole::Emulation::Emulation()@Base" 0.15.0
+ (c++)"Konsole::Emulation::Emulation()@Base" 0.15.0
+ (c++)"Konsole::Emulation::~Emulation()@Base" 0.15.0
+ (c++)"Konsole::Emulation::~Emulation()@Base" 0.15.0
+ (c++)"Konsole::Emulation::~Emulation()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::newHotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::qt_metacast(char const*)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::FullUrlRegExp@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::staticMetaObject@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::CompleteUrlRegExp@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::EmailAddressRegExp@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::actions()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::activate(QString const&)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::HotSpot(int, int, int, int)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::~HotSpot()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::activated(QUrl const&, bool)@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::UrlFilter()@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::UrlFilter()@Base" 0.15.0
+ (c++)"Konsole::FilterChain::hotSpots() const@Base" 0.15.0
+ (c++)"Konsole::FilterChain::hotSpotAt(int, int) const@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::regExp() const@Base" 0.15.0
+ (c++)"Konsole::RegExpFilter::HotSpot::capturedTexts() const@Base" 0.15.0
+ (c++)"Konsole::Filter::hotSpotsAtLine(int) const@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::startColumn() const@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::type() const@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::endLine() const@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::endColumn() const@Base" 0.15.0
+ (c++)"Konsole::Filter::HotSpot::startLine() const@Base" 0.15.0
+ (c++)"Konsole::Filter::hotSpots() const@Base" 0.15.0
+ (c++)"Konsole::Filter::hotSpotAt(int, int) const@Base" 0.15.0
+ (c++)"Konsole::Emulation::metaObject() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::keyBindings() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::programUsesMouse() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::programBracketedPasteMode() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::history() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::eraseChar() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::imageSize() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::lineCount() const@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::metaObject() const@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::getUrlObject() const@Base" 0.15.0
+ (c++)"Konsole::UrlFilter::HotSpot::urlType() const@Base" 0.15.0
+ (c++)"typeinfo for Konsole::FilterChain@Base" 0.15.0
+ (c++)"typeinfo for Konsole::RegExpFilter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo for Konsole::RegExpFilter@Base" 0.15.0
+ (c++)"typeinfo for Konsole::Filter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo for Konsole::Filter@Base" 0.15.0
+ (c++)"typeinfo for Konsole::Emulation@Base" 0.15.0
+ (c++)"typeinfo for Konsole::UrlFilter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo for Konsole::UrlFilter@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::FilterChain@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::RegExpFilter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::RegExpFilter@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::Filter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::Filter@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::Emulation@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::UrlFilter::HotSpot@Base" 0.15.0
+ (c++)"typeinfo name for Konsole::UrlFilter@Base" 0.15.0
+ (c++)"vtable for Konsole::FilterChain@Base" 0.15.0
+ (c++)"vtable for Konsole::RegExpFilter::HotSpot@Base" 0.15.0
+ (c++)"vtable for Konsole::RegExpFilter@Base" 0.15.0
+ (c++)"vtable for Konsole::Filter::HotSpot@Base" 0.15.0
+ (c++)"vtable for Konsole::Filter@Base" 0.15.0
+ (c++)"vtable for Konsole::Emulation@Base" 0.15.0
+ (c++)"vtable for Konsole::UrlFilter::HotSpot@Base" 0.15.0
+ (c++)"vtable for Konsole::UrlFilter@Base" 0.15.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
  (c++)"typeinfo for QTermWidget@Base" 0.6.0
