@@ -1,4 +1,4 @@
-qtermwidget (0.15.0-0ubuntu1) UNRELEASED; urgency=medium
+qtermwidget (0.15.0-0ubuntu1) groovy; urgency=medium
 
   * New upstream release.
     - Update upstream signing key.
@@ -6,7 +6,7 @@ qtermwidget (0.15.0-0ubuntu1) UNRELEASED; urgency=medium
     - Update symbols from amd64 build logs.
   * Run wrap-and-sort.
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 01 May 2020 00:06:42 -0500
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 00:20:23 -0500
 
 qtermwidget (0.14.1-3ubuntu1) focal; urgency=medium
 
