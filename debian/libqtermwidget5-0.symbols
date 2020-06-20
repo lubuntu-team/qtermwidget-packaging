@@ -242,6 +242,8 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"vtable for Konsole::UrlFilter::HotSpot@Base" 0.15.0
  (c++)"vtable for Konsole::UrlFilter@Base" 0.15.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
+ (c++)"QTermWidget::setBoldIntense(bool)@Base" 0.15.0+git20200620
+ (c++)"std::__cxx11::_List_base<QByteArray, std::allocator<QByteArray> >::_M_clear()@Base" 0.15.0+git20200620
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
  (c++)"typeinfo for QTermWidget@Base" 0.6.0
  (c++)"typeinfo name for QTermWidget@Base" 0.6.0
