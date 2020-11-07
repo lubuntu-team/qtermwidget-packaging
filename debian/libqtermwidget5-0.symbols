@@ -76,7 +76,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::setShellProgram(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::setSilenceTimeout(int)@Base" 0.6.0
  (c++)"QTermWidget::setSize(QSize const&)@Base" 0.6.0
- (c++)"QTermWidget::setTerminalBackgroundImage(QString)@Base" 0.7.1
+ (c++)"QTermWidget::setTerminalBackgroundImage(QString const&)@Base" 0.15.0+git20201107
  (c++)"QTermWidget::setTerminalFont(QFont const&)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalOpacity(double)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalSizeHint(bool)@Base" 0.9.0~
@@ -210,6 +210,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"Konsole::Emulation::keyBindings() const@Base" 0.15.0
  (c++)"Konsole::Emulation::programUsesMouse() const@Base" 0.15.0
  (c++)"Konsole::Emulation::programBracketedPasteMode() const@Base" 0.15.0
+ (c++)"Konsole::Emulation::handleCommandFromKeyboard(Konsole::KeyboardTranslator::Command)@Base" 0.15.0+git20201107
  (c++)"Konsole::Emulation::history() const@Base" 0.15.0
  (c++)"Konsole::Emulation::eraseChar() const@Base" 0.15.0
  (c++)"Konsole::Emulation::imageSize() const@Base" 0.15.0
@@ -247,3 +248,4 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"typeinfo for QTermWidget@Base" 0.6.0
  (c++)"typeinfo name for QTermWidget@Base" 0.6.0
  (c++)"vtable for QTermWidget@Base" 0.6.0
+ (optional|c++|arch= armhf )"std::__cxx11::_List_base<QByteArray, std::allocator<QByteArray> >::_M_clear()@Base" 0.15.0+git20201107
