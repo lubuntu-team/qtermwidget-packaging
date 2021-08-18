@@ -21,6 +21,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"Konsole::Emulation::lockPtyRequest(bool)@Base" 0.16.1
  (c++)"Konsole::Emulation::metaObject() const@Base" 0.16.1
  (c++)"Konsole::Emulation::outputChanged()@Base" 0.16.1
+ (c++)"Konsole::Emulation::outputFromKeypressEvent()@Base" 0.17.0
  (c++)"Konsole::Emulation::profileChangeCommandReceived(QString const&)@Base" 0.16.1
  (c++)"Konsole::Emulation::programBracketedPasteModeChanged(bool)@Base" 0.16.1
  (c++)"Konsole::Emulation::programBracketedPasteMode() const@Base" 0.16.1
@@ -31,7 +32,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"Konsole::Emulation::receiveChar(wchar_t)@Base" 0.16.1
  (c++)"Konsole::Emulation::receiveData(char const*, int)@Base" 0.16.1
  (c++)"Konsole::Emulation::sendData(char const*, int)@Base" 0.16.1
- (c++)"Konsole::Emulation::sendKeyEvent(QKeyEvent*)@Base" 0.16.1
+ (c++)"Konsole::Emulation::sendKeyEvent(QKeyEvent*, bool)@Base" 0.17.0
  (c++)"Konsole::Emulation::sendMouseEvent(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::Emulation::sendString(char const*, int)@Base" 0.16.1
  (c++)"Konsole::Emulation::setCodec(Konsole::Emulation::EmulationCodec)@Base" 0.16.1
@@ -108,12 +109,14 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::availableColorSchemes()@Base" 0.6.0
  (c++)"QTermWidget::availableKeyBindings()@Base" 0.6.0
  (c++)"QTermWidget::bell(QString const&)@Base" 0.6.0
+ (c++)"QTermWidget::bracketedPasteModeIsDisabled() const@Base" 0.17.0
  (c++)"QTermWidget::bracketText(QString&)@Base" 0.9.0~
  (c++)"QTermWidget::changeDir(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::clear()@Base" 0.6.0
  (c++)"QTermWidget::copyAvailable(bool)@Base" 0.6.0
  (c++)"QTermWidget::copyClipboard()@Base" 0.6.0
  (c++)"QTermWidget::cursorChanged(Konsole::Emulation::KeyboardCursorShape, bool)@Base" 0.8.0
+ (c++)"QTermWidget::disableBracketedPasteMode(bool)@Base" 0.17.0
  (c++)"QTermWidget::filterActions(QPoint const&)@Base" 0.7.1
  (c++)"QTermWidget::find()@Base" 0.6.0
  (c++)"QTermWidget::findNext()@Base" 0.6.0
@@ -164,6 +167,7 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::setBlinkingCursor(bool)@Base" 0.8.0
  (c++)"QTermWidget::setBoldIntense(bool)@Base" 0.16.1
  (c++)"QTermWidget::setColorScheme(QString const&)@Base" 0.6.0
+ (c++)"QTermWidget::setConfirmMultilinePaste(bool)@Base" 0.17.0
  (c++)"QTermWidget::setDrawLineChars(bool)@Base" 0.16.1
  (c++)"QTermWidget::setEnvironment(QStringList const&)@Base" 0.6.0
  (c++)"QTermWidget::setFlowControlEnabled(bool)@Base" 0.6.0
@@ -182,10 +186,12 @@ libqtermwidget5.so.0 libqtermwidget5-0 #MINVER#
  (c++)"QTermWidget::setSilenceTimeout(int)@Base" 0.6.0
  (c++)"QTermWidget::setSize(QSize const&)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalBackgroundImage(QString const&)@Base" 0.16.1
+ (c++)"QTermWidget::setTerminalBackgroundMode(int)@Base" 0.17.0
  (c++)"QTermWidget::setTerminalFont(QFont const&)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalOpacity(double)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalSizeHint(bool)@Base" 0.9.0~
  (c++)"QTermWidget::setTextCodec(QTextCodec*)@Base" 0.6.0
+ (c++)"QTermWidget::setTrimPastedTrailingNewlines(bool)@Base" 0.17.0
  (c++)"QTermWidget::setWorkingDirectory(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::setZoom(int)@Base" 0.6.0
  (c++)"QTermWidget::silence()@Base" 0.6.0

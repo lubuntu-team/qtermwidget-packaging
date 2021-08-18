@@ -9,7 +9,7 @@ Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libutf8proc-dev,
-               lxqt-build-tools (>= 0.8.0~),
+               lxqt-build-tools (>= 0.9.0),
                qtbase5-dev
 Standards-Version: 4.5.1
 Vcs-Browser: https://salsa.debian.org/lxqt-team/qtermwidget
