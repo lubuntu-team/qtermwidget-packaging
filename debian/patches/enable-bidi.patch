@@ -1,0 +1,33 @@
+From 1dff927b317d9bb072aee95010f2c36d835464f5 Mon Sep 17 00:00:00 2001
+From: noureddin <noureddin95@gmail.com>
+Date: Thu, 26 May 2022 17:45:53 +0200
+Subject: [PATCH] enable bidi rendering by default (#481)
+
+Arabic, Persian, Urdu, Hebrew, and many other languages are written in
+an RTL script. And, naturally, people prefer to have filenames etc in
+their native language, regardless of the UI language.
+
+Konsole enables BiDi rendering by default, and for a good reason.
+
+As this is a library, I think it needs this to be enabled by default
+more than a stand-alone application like Konsole, because it's very easy
+for an application to overlook this feature, and not even provide an
+option to enable it, rendering it much less useful than it would have
+been.
+---
+ lib/TerminalDisplay.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/lib/TerminalDisplay.cpp b/lib/TerminalDisplay.cpp
+index cbf2118e..9e95c66f 100644
+--- a/lib/TerminalDisplay.cpp
++++ b/lib/TerminalDisplay.cpp
+@@ -332,7 +332,7 @@ TerminalDisplay::TerminalDisplay(QWidget *parent)
+ ,_resizing(false)
+ ,_terminalSizeHint(false)
+ ,_terminalSizeStartup(true)
+-,_bidiEnabled(false)
++,_bidiEnabled(true)
+ ,_mouseMarks(false)
+ ,_disabledBracketedPasteMode(false)
+ ,_actSel(0)

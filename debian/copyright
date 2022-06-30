@@ -3,28 +3,86 @@ Upstream-Name: qtermwidget
 Source: https://github.com/lxqt/qtermwidget
 
 Files: *
-Copyright: 2000      Stephan Kulow <coolo@kde.org>
-           2008      e_k <e_k@users.sourceforge.net>
-           2007-2008 Robert Knight <robertknight@gmail.com>
-           1997,1998 Lars Doelle <lars.doelle@on-line.de>
+Copyright: 2013,      Christian Surlykke
+           2000,      Stephan Kulow <coolo@kde.org>
+           2008,      e_k <e_k@users.sourceforge.net>
+           2006-2008, Robert Knight <robertknight@gmail.com>
+           1997,1998, Lars Doelle <lars.doelle@on-line.de>
+           1996,      Matthias Ettrich <ettrich@kde.org>
 License: GPL-2+
 
-Files: lib/kprocess.*
+Files: examples/cpp/main.cpp
+       lib/kprocess.*
        lib/kpty*
        lib/qtermwidget.*
+       lib/qtermwidget_version.h.in
        lib/TerminalCharacterDecoder.*
-Copyright: 2007      Oswald Buddenhagen <ossi@kde.org>
-           2008      e_k (e_k@users.sourceforge.net)
+Copyright: 2002-2003, 2007, Oswald Buddenhagen <ossi@kde.org>
+           2008,            e_k (e_k@users.sourceforge.net)
+           2006-2008,       Robert Knight <robertknight@gmail.com>
+           2002,            Waldo Bastian <bastian@kde.org>
+           2010,            KDE e.V. <kde-ev-board@kde.org>
+           2020,            Axel Kittenberger <axel.kittenberger@univie.ac.at>
 License: LGPL-2+
 
+Files: cmake/FindUtf8Proc.cmake
+       pyqt/cmake/SIPMacros.cmake
+       pyqt/cmake/FindPyQt5.cmake
+       pyqt/cmake/FindPyQt5.py
+       pyqt/cmake/FindPythonLibrary.cmake
+       pyqt/cmake/FindSIP.cmake
+       pyqt/cmake/FindSIP.py
+       pyqt/cmake/PythonMacros.cmake
+Copyright: 2007, 2014, Simon Edwards <simon@simonzone.com>
+           2012,       Luca Beltrame <lbeltrame@kde.org>
+           2012,       Rolf Eike Beer <eike@sf-mail.de>
+           2009-2011,  Kitware, Inc.
+           2009-2011,  Philip Lowman <philip@yhbt.com>
+License: BSD-3-Clause
+
+Files: pyqt/cmake/PythonCompile.py
+       lib/konsole_wcwidth.cpp
+       lib/konsole_wcwidth.h
+Copyright:       Simon Edwards <simon@simonzone.com>
+           2001, Markus Kuhn
+License: public-domain
+ We are grateful to Simon Edwards and Markus Kuhn for letting us distribute their work.
+Comment: Inspired by https://salsa.debian.org/science-team/mumps/-/blob/master/debian/copyright
+
 Files: debian/*
-Copyright: 2012-2020 Alf Gaida <agaida@siduction.org>
-           2016      Peter Mattern <pmattern@arcor.de>
-           2015      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
-           2015      Andrew Lee (李健秋) <ajqlee@debian.org>
-           2012      Thorsten Wohlfarth <towo@siduction.org>
-           2012      Henson Sturgill <daddysturg@gmail.com>
+Copyright: 2021,      Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+           2012-2020, Alf Gaida <agaida@siduction.org>
+           2016,      Peter Mattern <pmattern@arcor.de>
+           2015,      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
+           2015,      Andrew Lee (李健秋) <ajqlee@debian.org>
+           2012,      Thorsten Wohlfarth <towo@siduction.org>
+           2012,      Henson Sturgill <daddysturg@gmail.com>
 License: GPL-2+
+
+License: BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE HOLDERS OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 License: LGPL-2+
  This library is free software; you can redistribute it and/or modify it

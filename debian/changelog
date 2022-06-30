@@ -1,3 +1,27 @@
+qtermwidget (1.1.0-0ubuntu2) kinetic; urgency=medium
+
+  * Enable BiDi rendering by default.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 11 Jun 2022 14:15:19 -0400
+
+qtermwidget (1.1.0-0ubuntu1) kinetic; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies.
+  * Package rename for SONAME bump.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 09:59:01 -0500
+
+qtermwidget (0.17.0-0ubuntu1) impish; urgency=medium
+
+  * New upstream release 0.17.0
+  * Update debian control
+    - Use lxqt-build-tools 0.9.0
+  * Update symbols
+  * Update debian/copyright
+
+ -- apt-ghetto <apt-ghetto@protonmail.com>  Mon, 16 Aug 2021 15:49:23 +0200
+
 qtermwidget (0.16.1-1ubuntu1) hirsute; urgency=medium
 
   * New upstream version.
