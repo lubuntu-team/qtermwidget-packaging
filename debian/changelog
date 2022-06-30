@@ -1,3 +1,9 @@
+qtermwidget (1.1.0-0ubuntu2~ppa1) jammy; urgency=medium
+
+  * Backport to Jammy.
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 30 Jun 2022 02:54:13 -0500
+
 qtermwidget (1.1.0-0ubuntu2) kinetic; urgency=medium
 
   * Enable BiDi rendering by default.
