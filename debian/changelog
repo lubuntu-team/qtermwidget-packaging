@@ -1,6 +1,7 @@
 qtermwidget (1.1.0-0ubuntu2~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
+  * Updated Lubuntu Developers copyright to 2021-2022.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 30 Jun 2022 02:54:13 -0500
 
