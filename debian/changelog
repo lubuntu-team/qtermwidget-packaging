@@ -1,7 +1,12 @@
 qtermwidget (1.1.0-0ubuntu2~ppa1) jammy; urgency=medium
 
   * Backport to Jammy.
-  * Updated Lubuntu Developers copyright to 2021-2022.
+  * Updated copyright file.
+    - Updated Lubuntu Developers copyright to 2021-2022.
+    - Removed a bunch of files and a couple of copyright owners from the
+      section now marked "Files: cmake/FindUtf8Proc.cmake" - the files had
+      been removed upstream and only the remaining copyright owners are
+      listed.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 30 Jun 2022 02:54:13 -0500
 

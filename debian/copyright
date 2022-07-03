@@ -26,16 +26,6 @@ Copyright: 2002-2003, 2007, Oswald Buddenhagen <ossi@kde.org>
 License: LGPL-2+
 
 Files: cmake/FindUtf8Proc.cmake
-       pyqt/cmake/SIPMacros.cmake
-       pyqt/cmake/FindPyQt5.cmake
-       pyqt/cmake/FindPyQt5.py
-       pyqt/cmake/FindPythonLibrary.cmake
-       pyqt/cmake/FindSIP.cmake
-       pyqt/cmake/FindSIP.py
-       pyqt/cmake/PythonMacros.cmake
-Copyright: 2007, 2014, Simon Edwards <simon@simonzone.com>
-           2012,       Luca Beltrame <lbeltrame@kde.org>
-           2012,       Rolf Eike Beer <eike@sf-mail.de>
            2009-2011,  Kitware, Inc.
            2009-2011,  Philip Lowman <philip@yhbt.com>
 License: BSD-3-Clause
