@@ -9,6 +9,7 @@ qtermwidget (1.1.0-0ubuntu2~ppa1) jammy; urgency=medium
       listed.
   * Removed reduntant Repository-Browser field from d/upstream/metadata.
   * Removed obsolete "-Wl,--as-needed" linker flag.
+  * Removed trailing whitespace from changelog.
 
  -- Aaron Rainbolt <arraybolt3@gmail.com>  Thu, 30 Jun 2022 02:54:13 -0500
 
@@ -82,7 +83,7 @@ qtermwidget (0.14.1-3) unstable; urgency=medium
 
   * Bumped Standards-Version to 4.5.0, no changes needed
   * Removed the not existing package qtermwidget-l10n from recommends,
-    thanks @wxl, nice finding. 
+    thanks @wxl, nice finding.
 
  -- Alf Gaida <agaida@siduction.org>  Sun, 23 Feb 2020 22:16:09 +0100
 
@@ -395,4 +396,3 @@ qtermwidget (0.6.0-1) unstable; urgency=medium
   * Refine copyright file.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 19 Aug 2015 02:39:14 +0800
-
