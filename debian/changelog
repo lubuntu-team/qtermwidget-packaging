@@ -7,7 +7,7 @@ qtermwidget (1.1.0-0ubuntu2~ppa1) jammy; urgency=medium
       section now marked "Files: cmake/FindUtf8Proc.cmake" - the files had
       been removed upstream and only the remaining copyright owners are
       listed.
-  * Removed reduntant Repository-Browser field from d/upstream/metadata.
+  * Removed redundant Repository-Browser field from d/upstream/metadata.
   * Removed obsolete "-Wl,--as-needed" linker flag.
   * Removed trailing whitespace from changelog.
   * Bumped Standards-Version to 4.6.1, no changes necessary.
