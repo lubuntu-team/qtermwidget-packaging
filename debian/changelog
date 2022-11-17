@@ -5,6 +5,7 @@ qtermwidget (1.2.0-0ubuntu1) UNRELEASED; urgency=medium
   * Lubuntuify the package slightly, to make debhelper happy.
   * Bump build dependencies in debian/control.
   * Remove reverse-applicable upstream patches.
+  * Update symbols from amd64 build logs.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 17 Nov 2022 16:29:27 -0600
 

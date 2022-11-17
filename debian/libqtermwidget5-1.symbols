@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.1.0 amd64
+# SymbolsHelper-Confirmed: 1.2.0 amd64
 libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
 * Build-Depends-Package: libqtermwidget5-1-dev
  (c++)"Konsole::Emulation::Emulation()@Base" 0.16.1
@@ -178,7 +178,6 @@ libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
  (c++)"QTermWidget::setMonitorActivity(bool)@Base" 0.6.0
  (c++)"QTermWidget::setMonitorSilence(bool)@Base" 0.6.0
  (c++)"QTermWidget::setMotionAfterPasting(int)@Base" 0.6.0
- (c++)"QTermWidget::setScrollBarPosition(QTermWidget::ScrollBarPosition)@Base" 0.6.0
  (c++)"QTermWidget::setSelectionEnd(int, int)@Base" 0.6.0
  (c++)"QTermWidget::setSelectionStart(int, int)@Base" 0.6.0
  (c++)"QTermWidget::setShellProgram(QString const&)@Base" 0.6.0
@@ -210,8 +209,73 @@ libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
+ _ZN11QTermWidget20setScrollBarPositionEN20QTermWidgetInterface17ScrollBarPositionE@Base 1.2.0
+ _ZN11QTermWidget24getAvailableColorSchemesEv@Base 1.2.0
  _ZNK11QTermWidget11historySizeEv@Base 1.1.0
+ _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::bracketText(QString&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::bracketedPasteModeIsDisabled() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::changeDir(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::createWidget(int) const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::disableBracketedPasteMode(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::filterActions(QPoint const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::flowControlEnabled()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getAvailableColorSchemes()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getMargin() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getPtySlaveFd() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getSelectionEnd(int&, int&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getSelectionStart(int&, int&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getShellPID()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getTerminalFont()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::historyLinesCount()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::historySize() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::icon() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::isBidiEnabled()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::isTitleChanged() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::keyBindings()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::screenColumnsCount()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::screenLinesCount()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::scrollToEnd()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::selectedText(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::sendKeyEvent(QKeyEvent*)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::sendText(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setArgs(QStringList const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setAutoClose(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setBidiEnabled(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setBlinkingCursor(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setBoldIntense(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setColorScheme(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setConfirmMultilinePaste(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setDrawLineChars(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setEnvironment(QStringList const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setFlowControlEnabled(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setFlowControlWarningEnabled(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setHistorySize(int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setMargin(int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setMonitorActivity(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setMonitorSilence(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setMotionAfterPasting(int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setScrollBarPosition(QTermWidgetInterface::ScrollBarPosition)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setSelectionEnd(int, int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setSelectionStart(int, int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setShellProgram(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setSilenceTimeout(int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTerminalBackgroundImage(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTerminalBackgroundMode(int)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTerminalFont(QFont const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTerminalOpacity(double)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTerminalSizeHint(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTextCodec(QTextCodec*)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setTrimPastedTrailingNewlines(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setWorkingDirectory(QString const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::startShellProgram()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::startTerminalTeletype()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::terminalSizeHint()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::title() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::workingDirectory()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
+ qt_plugin_instance@Base 1.2.0
+ qt_plugin_query_metadata@Base 1.2.0
  (c++)"typeinfo for Konsole::Emulation@Base" 0.16.1
  (c++)"typeinfo for Konsole::Filter::HotSpot@Base" 0.16.1
  (c++)"typeinfo for Konsole::Filter@Base" 0.16.1
