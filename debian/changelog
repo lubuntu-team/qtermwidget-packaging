@@ -1,33 +1,19 @@
-qtermwidget (1.1.0-0ubuntu2) kinetic; urgency=medium
+qtermwidget (1.1.0-1) experimental; urgency=medium
 
-  * Enable BiDi rendering by default.
+  * New upstream release 1.1.0.
+  * Removed obsolete debian/compat file.
+  * Switched to GBP.
+  * Upstreamed non-Ubuntu-specific packaging changes from Ubuntu, modifying
+    the following files:
+    - control
+    - copyright
+    - *.install
+    - libqtermwidget5-0.symbols
+    - rules
+    - upstream/*
+    - patches directory
 
- -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 11 Jun 2022 14:15:19 -0400
-
-qtermwidget (1.1.0-0ubuntu1) kinetic; urgency=medium
-
-  * New upstream release.
-  * Bump build dependencies.
-  * Package rename for SONAME bump.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 09:59:01 -0500
-
-qtermwidget (0.17.0-0ubuntu1) impish; urgency=medium
-
-  * New upstream release 0.17.0
-  * Update debian control
-    - Use lxqt-build-tools 0.9.0
-  * Update symbols
-  * Update debian/copyright
-
- -- apt-ghetto <apt-ghetto@protonmail.com>  Mon, 16 Aug 2021 15:49:23 +0200
-
-qtermwidget (0.16.1-1ubuntu1) hirsute; urgency=medium
-
-  * New upstream version.
-  * debhelper-compat requirement bumped to 13.
-
- -- Raman Sarda <theloudspeaker@disroot.org>  Sun, 21 Feb 2021 20:33:55 +0530
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Sun, 10 Jul 2022 05:32:17 -0500
 
 qtermwidget (0.16.1-1) unstable; urgency=medium
 
@@ -45,24 +31,6 @@ qtermwidget (0.16.1-1) unstable; urgency=medium
   * Sort list of symbols
 
  -- Raphaël Hertzog <raphael@offensive-security.com>  Thu, 17 Dec 2020 11:54:22 +0100
-
-qtermwidget (0.15.0-0ubuntu1) groovy; urgency=medium
-
-  * New upstream release.
-    - Update upstream signing key.
-    - Update LXQt build dependencies.
-    - Update symbols from amd64 build logs.
-  * Run wrap-and-sort.
-
- -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 04 Jun 2020 00:20:23 -0500
-
-qtermwidget (0.14.1-3ubuntu1) focal; urgency=medium
-
-  * debian/control: Add Breaks/Replaces on qtermwidget-l10n to
-    qtermwidget5-data. Fixes upgrade from 0.14.1-0ubuntu3 or earlier.
-    (LP: #1864170)
-
- -- Rik Mills <rikmills@kde.org>  Tue, 25 Feb 2020 16:24:33 +0000
 
 qtermwidget (0.14.1-3) unstable; urgency=medium
 
@@ -263,6 +231,7 @@ qtermwidget (0.6.0-55-gd572f39-1) unstable; urgency=medium
 
  -- Alf Gaida <agaida@siduction.org>  Sat, 14 May 2016 18:09:02 +0200
 
+
 qtermwidget (0.6.0+20160108-6) unstable; urgency=medium
 
   * Fix two whitespace bugs, which i've had by mistake  introduced
@@ -381,4 +350,3 @@ qtermwidget (0.6.0-1) unstable; urgency=medium
   * Refine copyright file.
 
  -- Andrew Lee (李健秋) <ajqlee@debian.org>  Wed, 19 Aug 2015 02:39:14 +0800
-
