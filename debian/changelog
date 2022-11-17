@@ -1,3 +1,9 @@
+qtermwidget (1.1.0-0ubuntu2) kinetic; urgency=medium
+
+  * Enable BiDi rendering by default.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 11 Jun 2022 14:15:19 -0400
+
 qtermwidget (1.1.0-0ubuntu1) kinetic; urgency=medium
 
   * New upstream release.
