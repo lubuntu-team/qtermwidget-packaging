@@ -1,3 +1,11 @@
+qtermwidget (1.1.0-0ubuntu1) kinetic; urgency=medium
+
+  * New upstream release.
+  * Bump build dependencies.
+  * Package rename for SONAME bump.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Thu, 02 Jun 2022 09:59:01 -0500
+
 qtermwidget (0.17.0-0ubuntu1) impish; urgency=medium
 
   * New upstream release 0.17.0
