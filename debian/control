@@ -10,7 +10,7 @@ Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libutf8proc-dev,
-               lxqt-build-tools (>= 0.11.0),
+               lxqt-build-tools (>= 0.12.0),
                qtbase5-dev
 Standards-Version: 4.6.1
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging
