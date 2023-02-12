@@ -45,7 +45,7 @@ Copyright:           Adriaan de Groot <groot@kde.org>
                      Maxim Bourmistrov <maxim@unixconn.com>
                 2020 Axel Kittenberger (axel.kittenberger@univie.ac.at)
 License: LGPL-2+
-  
+
 Files: lib/TerminalCharacterDecoder.cpp
        lib/TerminalCharacterDecoder.h
 Copyright: 2006-2008 Robert Knight <robertknight@gmail.com>

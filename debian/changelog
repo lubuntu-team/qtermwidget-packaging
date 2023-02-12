@@ -3,6 +3,7 @@ qtermwidget (1.2.0-0ubuntu2) lunar; urgency=medium
   * Bumped Standards-Version to 4.6.2, no changes necessary.
   * Overhauled copyright file.
   * Removed trailing whitespace from changelog.
+  * Ran wrap-and-sort.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sat, 11 Feb 2023 19:40:36 -0600
 
