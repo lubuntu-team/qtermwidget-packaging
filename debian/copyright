@@ -3,45 +3,76 @@ Upstream-Name: qtermwidget
 Source: https://github.com/lxqt/qtermwidget
 
 Files: *
-Copyright: 2013-2022, LXQt team
-           2013,      Christian Surlykke
-           2000,      Stephan Kulow <coolo@kde.org>
-           2008,      e_k <e_k@users.sourceforge.net>
-           2006-2008, Robert Knight <robertknight@gmail.com>
-           1997,1998, Lars Doelle <lars.doelle@on-line.de>
-           1996,      Matthias Ettrich <ettrich@kde.org>
+Copyright: 2013-2022 LXQt team
+                     Adam Treat <atreat@rim.com>
+                     Chris Mueller <ruunsmail@googlemail.com>
+                2013 Christian Surlykke <christian@surlykke.dk>
+                     Daniel O'Neill <doneill@cammy.riverroadcable.com>
+                     Francisco Ballina <zballinita@gmail.com>
+                     Georg Rudoy <0xd34df00d@gmail.com>
+                     Jerome Leclanche <jerome@leclan.ch>
+                     Petr Vanek <petr@yarpen.cz>
+                     @kulti <kultihell@gmail.com>
+                2000 Stephan Kulow <coolo@kde.org>
+                2008 e_k <e_k@users.sourceforge.net>
+           2006-2008 Robert Knight <robertknight@gmail.com>
+           1997-1998 Lars Doelle <lars.doelle@on-line.de>
+                1996 Matthias Ettrich <ettrich@kde.org>
+                     Maxim Bourmistrov <maxim@unixconn.com>
 License: GPL-2+
 
 Files: examples/cpp/main.cpp
-       lib/kprocess.*
-       lib/kpty*
-       lib/qtermwidget.*
+       lib/kprocess.cpp
+       lib/kprocess.h
+       lib/kpty.cpp
+       lib/kpty.h
+       lib/kpty_p.h
+       lib/kptydevice.cpp
+       lib/kptydevice.h
+       lib/kptyprocess.cpp
+       lib/kptyprocess.h
+       lib/qtermwidget.cpp
+       lib/qtermwidget.h
+       lib/qtermwidget_interface.h
        lib/qtermwidget_version.h.in
-       lib/TerminalCharacterDecoder.*
-Copyright: 2002-2003, 2007, Oswald Buddenhagen <ossi@kde.org>
-           2008,            e_k (e_k@users.sourceforge.net)
-           2006-2008,       Robert Knight <robertknight@gmail.com>
-           2002,            Waldo Bastian <bastian@kde.org>
-           2010,            KDE e.V. <kde-ev-board@kde.org>
-           2020,            Axel Kittenberger <axel.kittenberger@univie.ac.at>
+Copyright:           Adriaan de Groot <groot@kde.org>
+                2010 KDE e.V <kde-ev-board@kde.org>
+           2002-2007 Oswald Buddenhagen <ossi@kde.org>
+           2006-2008 Robert Knight <robertknight@gmail.com>
+                2002 Waldo Bastian <bastian@kde.org>
+                2008 e_k <e_k@users.sourceforge.net>
+                2022 Francesc Martinez <info@francescmm.com>
+                     Maxim Bourmistrov <maxim@unixconn.com>
+                2020 Axel Kittenberger (axel.kittenberger@univie.ac.at)
 License: LGPL-2+
+  
+Files: lib/TerminalCharacterDecoder.cpp
+       lib/TerminalCharacterDecoder.h
+Copyright: 2006-2008 Robert Knight <robertknight@gmail.com>
+License: LGPL-2.1+
+Comment: The files above are licensed under the GNU Lesser General Public
+ License version 2 or later, however there is no Lesser GPL version 2. As per
+ the answer given at https://opensource.stackexchange.com/questions/13191 this
+ anomaly can be treated as LGPL-2.1+.
 
-Files: cmake/FindUtf8Proc.cmake
-Copyright: 2009-2011,  Kitware, Inc.
-           2009-2011,  Philip Lowman <philip@yhbt.com>
+Files: CMakeLists.txt
+       cmake/*
+Copyright: 2013-2022 LXQt team
 License: BSD-3-Clause
 
-Files: pyqt/cmake/PythonCompile.py
-       lib/konsole_wcwidth.cpp
+Files: cmake/FindUtf8Proc.cmake
+Copyright: 2009-2011 Kitware, Inc
+           2009-2011 Philip Lowman <philip@yhbt.com>
+License: BSD-3-Clause
+
+Files: lib/konsole_wcwidth.cpp
        lib/konsole_wcwidth.h
-Copyright:       Simon Edwards <simon@simonzone.com>
-           2001, Markus Kuhn
 License: public-domain
- We are grateful to Simon Edwards and Markus Kuhn for letting us distribute their work.
+ We are grateful to Markus Kuhn, e_k, and Waldo Bastian, for letting us distribute their work.
 Comment: Inspired by https://salsa.debian.org/science-team/mumps/-/blob/master/debian/copyright
 
 Files: debian/*
-Copyright: 2021-2022, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright: 2021-2023, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
            2012-2020, Alf Gaida <agaida@siduction.org>
            2016,      Peter Mattern <pmattern@arcor.de>
            2015,      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
@@ -91,8 +122,27 @@ License: LGPL-2+
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301,
  USA.
  .
- On Debian system, the complete text of GNU Lesser General Public
+ On Debian system, the complete text of GNU Library General Public
  License can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published
+ by the Free Software Foundation; either version 2.1 of the License, or
+ (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301,
+ USA.
+ .
+ On Debian system, the complete text of GNU Lesser General Public
+ License can be found in "/usr/share/common-licenses/LGPL-2.1".
 
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
