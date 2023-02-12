@@ -4,6 +4,8 @@ qtermwidget (1.2.0-0ubuntu2) lunar; urgency=medium
   * Overhauled copyright file.
   * Removed trailing whitespace from changelog.
   * Ran wrap-and-sort.
+  * Created debian/qtermwidget5-data.examples to install example files,
+    satisfying a Lintian gripe.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sat, 11 Feb 2023 19:40:36 -0600
 
