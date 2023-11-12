@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.2.0 amd64
+# SymbolsHelper-Confirmed: 1.4.0 amd64
 libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
 * Build-Depends-Package: libqtermwidget5-1-dev
  (c++)"Konsole::Emulation::Emulation()@Base" 0.16.1
@@ -210,6 +210,7 @@ libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
  _ZN11QTermWidget20setScrollBarPositionEN20QTermWidgetInterface17ScrollBarPositionE@Base 1.2.0
+ _ZN11QTermWidget22getForegroundProcessIdEv@Base 1.4.0
  _ZN11QTermWidget24getAvailableColorSchemesEv@Base 1.2.0
  _ZNK11QTermWidget11historySizeEv@Base 1.1.0
  _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
@@ -221,6 +222,7 @@ libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
  (c++)"non-virtual thunk to QTermWidget::filterActions(QPoint const&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::flowControlEnabled()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::getAvailableColorSchemes()@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::getForegroundProcessId()@Base" 1.4.0
  (c++)"non-virtual thunk to QTermWidget::getMargin() const@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::getPtySlaveFd() const@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::getSelectionEnd(int&, int&)@Base" 1.2.0
