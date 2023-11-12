@@ -1,6 +1,7 @@
 qtermwidget (1.4.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update copyright.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sun, 12 Nov 2023 17:05:59 -0600
 

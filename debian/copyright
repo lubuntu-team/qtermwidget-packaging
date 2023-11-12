@@ -3,7 +3,7 @@ Upstream-Name: qtermwidget
 Source: https://github.com/lxqt/qtermwidget
 
 Files: *
-Copyright: 2013-2022 LXQt team
+Copyright: 2013-2023 LXQt team
                      Adam Treat <atreat@rim.com>
                      Chris Mueller <ruunsmail@googlemail.com>
                 2013 Christian Surlykke <christian@surlykke.dk>
