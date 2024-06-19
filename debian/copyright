@@ -3,7 +3,7 @@ Upstream-Name: qtermwidget
 Source: https://github.com/lxqt/qtermwidget
 
 Files: *
-Copyright: 2013-2023 LXQt team
+Copyright: 2013-2024 LXQt team
                      Adam Treat <atreat@rim.com>
                      Chris Mueller <ruunsmail@googlemail.com>
                 2013 Christian Surlykke <christian@surlykke.dk>
@@ -72,7 +72,7 @@ License: public-domain
 Comment: Inspired by https://salsa.debian.org/science-team/mumps/-/blob/master/debian/copyright
 
 Files: debian/*
-Copyright: 2021-2023, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
+Copyright: 2021-2024, Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
            2012-2020, Alf Gaida <agaida@siduction.org>
            2016,      Peter Mattern <pmattern@arcor.de>
            2015,      ChangZhuo Chen (陳昌倬) <czchen@debian.org>
