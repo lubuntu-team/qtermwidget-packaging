@@ -1,10 +1,11 @@
-qtermwidget (2.0.0-0ubuntu1~ppa1) oracular; urgency=medium
+qtermwidget (2.0.0-0ubuntu1~ppa2) oracular; urgency=medium
 
   * New upstream release.
   * Update copyright file.
   * Bump Standards-Version to 4.7.0, no changes necessary.
   * Rename binaries, bump sonames.
   * Bump build dependencies.
+  * Update symbols file.
 
  -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 19 Jun 2024 14:29:19 -0500
 

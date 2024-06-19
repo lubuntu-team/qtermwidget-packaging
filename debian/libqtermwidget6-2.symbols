@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.4.0 amd64
+# SymbolsHelper-Confirmed: 2.0.0 amd64 arm64 armhf ppc64el riscv64 s390x
 libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
 * Build-Depends-Package: libqtermwidget6-2-dev
  (c++)"Konsole::Emulation::Emulation()@Base" 0.16.1
@@ -35,8 +35,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"Konsole::Emulation::sendKeyEvent(QKeyEvent*, bool)@Base" 0.17.0
  (c++)"Konsole::Emulation::sendMouseEvent(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::Emulation::sendString(char const*, int)@Base" 0.16.1
- (c++)"Konsole::Emulation::setCodec(Konsole::Emulation::EmulationCodec)@Base" 0.16.1
- (c++)"Konsole::Emulation::setCodec(QTextCodec const*)@Base" 0.16.1
  (c++)"Konsole::Emulation::setHistory(Konsole::HistoryType const&)@Base" 0.16.1
  (c++)"Konsole::Emulation::setImageSize(int, int)@Base" 0.16.1
  (c++)"Konsole::Emulation::setKeyBindings(QString const&)@Base" 0.16.1
@@ -82,12 +80,10 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"Konsole::RegExpFilter::HotSpot::HotSpot(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::HotSpot::activate(QString const&)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::HotSpot::capturedTexts() const@Base" 0.16.1
- (c++)"Konsole::RegExpFilter::HotSpot::setCapturedTexts(QStringList const&)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::RegExpFilter()@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::newHotSpot(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::process()@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::regExp() const@Base" 0.16.1
- (c++)"Konsole::RegExpFilter::setRegExp(QRegExp const&)@Base" 0.16.1
  (c++)"Konsole::UrlFilter::CompleteUrlRegExp@Base" 0.16.1
  (c++)"Konsole::UrlFilter::EmailAddressRegExp@Base" 0.16.1
  (c++)"Konsole::UrlFilter::FullUrlRegExp@Base" 0.16.1
@@ -160,7 +156,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"QTermWidget::sendKeyEvent(QKeyEvent*)@Base" 0.16.1
  (c++)"QTermWidget::sendText(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::sessionFinished()@Base" 0.6.0
- (c++)"QTermWidget::setArgs(QStringList const&)@Base" 0.6.0
  (c++)"QTermWidget::setAutoClose(bool)@Base" 0.8.0
  (c++)"QTermWidget::setBidiEnabled(bool)@Base" 0.9.0~
  (c++)"QTermWidget::setBlinkingCursor(bool)@Base" 0.8.0
@@ -168,7 +163,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"QTermWidget::setColorScheme(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::setConfirmMultilinePaste(bool)@Base" 0.17.0
  (c++)"QTermWidget::setDrawLineChars(bool)@Base" 0.16.1
- (c++)"QTermWidget::setEnvironment(QStringList const&)@Base" 0.6.0
  (c++)"QTermWidget::setFlowControlEnabled(bool)@Base" 0.6.0
  (c++)"QTermWidget::setFlowControlWarningEnabled(bool)@Base" 0.6.0
  (c++)"QTermWidget::setHistorySize(int)@Base" 0.6.0
@@ -188,7 +182,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"QTermWidget::setTerminalFont(QFont const&)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalOpacity(double)@Base" 0.6.0
  (c++)"QTermWidget::setTerminalSizeHint(bool)@Base" 0.9.0~
- (c++)"QTermWidget::setTextCodec(QTextCodec*)@Base" 0.6.0
  (c++)"QTermWidget::setTrimPastedTrailingNewlines(bool)@Base" 0.17.0
  (c++)"QTermWidget::setWorkingDirectory(QString const&)@Base" 0.6.0
  (c++)"QTermWidget::setZoom(int)@Base" 0.6.0
@@ -209,11 +202,18 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"QTermWidget::zoomIn()@Base" 0.6.0
  (c++)"QTermWidget::zoomOut()@Base" 0.6.0
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
+ _ZN11QTermWidget14setEnvironmentERK5QListI7QStringE@Base 2.0.0
+ _ZN11QTermWidget17setWordCharactersERK7QString@Base 2.0.0
  _ZN11QTermWidget20setScrollBarPositionEN20QTermWidgetInterface17ScrollBarPositionE@Base 1.2.0
  _ZN11QTermWidget22getForegroundProcessIdEv@Base 1.4.0
  _ZN11QTermWidget24getAvailableColorSchemesEv@Base 1.2.0
+ _ZN11QTermWidget7setArgsERK5QListI7QStringE@Base 2.0.0
+ _ZN7Konsole12RegExpFilter7HotSpot16setCapturedTextsERK5QListI7QStringE@Base 2.0.0
+ _ZN7Konsole12RegExpFilter9setRegExpERK18QRegularExpression@Base 2.0.0
  _ZNK11QTermWidget11historySizeEv@Base 1.1.0
  _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
+ _ZNK11QTermWidget14wordCharactersEv@Base 2.0.0
+ (optional=templinst|arch=armhf riscv64)_ZNSt7__cxx1110_List_baseI10QByteArraySaIS1_EE8_M_clearEv@Base 2.0.0
  (c++)"non-virtual thunk to QTermWidget::bracketText(QString&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::bracketedPasteModeIsDisabled() const@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::changeDir(QString const&)@Base" 1.2.0
@@ -241,7 +241,7 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"non-virtual thunk to QTermWidget::selectedText(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::sendKeyEvent(QKeyEvent*)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::sendText(QString const&)@Base" 1.2.0
- (c++)"non-virtual thunk to QTermWidget::setArgs(QStringList const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setArgs(QList<QString> const&)@Base" 2.0.0
  (c++)"non-virtual thunk to QTermWidget::setAutoClose(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setBidiEnabled(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setBlinkingCursor(bool)@Base" 1.2.0
@@ -249,7 +249,7 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"non-virtual thunk to QTermWidget::setColorScheme(QString const&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setConfirmMultilinePaste(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setDrawLineChars(bool)@Base" 1.2.0
- (c++)"non-virtual thunk to QTermWidget::setEnvironment(QStringList const&)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setEnvironment(QList<QString> const&)@Base" 2.0.0
  (c++)"non-virtual thunk to QTermWidget::setFlowControlEnabled(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setFlowControlWarningEnabled(bool)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setHistorySize(int)@Base" 1.2.0
@@ -267,17 +267,18 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"non-virtual thunk to QTermWidget::setTerminalFont(QFont const&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setTerminalOpacity(double)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setTerminalSizeHint(bool)@Base" 1.2.0
- (c++)"non-virtual thunk to QTermWidget::setTextCodec(QTextCodec*)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::setTrimPastedTrailingNewlines(bool)@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::setWordCharacters(QString const&)@Base" 2.0.0
  (c++)"non-virtual thunk to QTermWidget::setWorkingDirectory(QString const&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::startShellProgram()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::startTerminalTeletype()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::terminalSizeHint()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::title() const@Base" 1.2.0
+ (c++)"non-virtual thunk to QTermWidget::wordCharacters() const@Base" 2.0.0
  (c++)"non-virtual thunk to QTermWidget::workingDirectory()@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::~QTermWidget()@Base" 0.6.0
  qt_plugin_instance@Base 1.2.0
- qt_plugin_query_metadata@Base 1.2.0
+ qt_plugin_query_metadata_v2@Base 2.0.0
  (c++)"typeinfo for Konsole::Emulation@Base" 0.16.1
  (c++)"typeinfo for Konsole::Filter::HotSpot@Base" 0.16.1
  (c++)"typeinfo for Konsole::Filter@Base" 0.16.1
