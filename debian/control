@@ -12,7 +12,7 @@ Build-Depends: cmake,
                libutf8proc-dev,
                lxqt-build-tools (>= 0.13.0),
                qtbase5-dev
-Standards-Version: 4.6.2
+Standards-Version: 4.7.0
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging.git
 XS-Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qtermwidget
