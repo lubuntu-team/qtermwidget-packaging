@@ -1,6 +1,6 @@
 # SymbolsHelper-Confirmed: 1.4.0 amd64
-libqtermwidget5.so.1 libqtermwidget5-1 #MINVER#
-* Build-Depends-Package: libqtermwidget5-1-dev
+libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
+* Build-Depends-Package: libqtermwidget6-2-dev
  (c++)"Konsole::Emulation::Emulation()@Base" 0.16.1
  (c++)"Konsole::Emulation::bracketedPasteModeChanged(bool)@Base" 0.16.1
  (c++)"Konsole::Emulation::bufferedUpdate()@Base" 0.16.1

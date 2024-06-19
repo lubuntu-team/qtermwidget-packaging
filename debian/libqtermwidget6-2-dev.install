@@ -1,0 +1,4 @@
+usr/include
+usr/lib/*/cmake/qtermwidget6/*.cmake
+usr/lib/*/libqtermwidget6.so
+usr/lib/*/pkgconfig/qtermwidget6.pc
