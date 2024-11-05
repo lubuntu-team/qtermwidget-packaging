@@ -29,8 +29,8 @@ Depends: qtermwidget6-data (= ${source:Version}),
          ${shlibs:Depends}
 Recommends: fonts-hack
 Pre-Depends: ${misc:Pre-Depends}
-Breaks: libqtermwidget5-0 (<< 0.99.0)
-Replaces: libqtermwidget5-0 (<< 0.99.0)
+Breaks: libqtermwidget5-1
+Replaces: libqtermwidget5-1
 Description: Terminal emulator widget for Qt 6 (shared libraries)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
@@ -42,8 +42,8 @@ Architecture: any
 Multi-Arch: same
 Section: libdevel
 Depends: libqtermwidget6-2 (= ${binary:Version}), ${misc:Depends}
-Breaks: libqtermwidget5-0-dev (<< 0.99.0)
-Replaces: libqtermwidget5-0-dev (<< 0.99.0)
+Breaks: libqtermwidget5-1-dev
+Replaces: libqtermwidget5-1-dev
 Description: Terminal emulator widget for Qt 6 (development files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
