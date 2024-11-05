@@ -67,6 +67,9 @@ License: BSD-3-Clause
 
 Files: lib/konsole_wcwidth.cpp
        lib/konsole_wcwidth.h
+Copyright: Markus Kuhn
+           e_k
+           Waldo Bastian
 License: public-domain
  We are grateful to Markus Kuhn, e_k, and Waldo Bastian, for letting us distribute their work.
 Comment: Inspired by https://salsa.debian.org/science-team/mumps/-/blob/master/debian/copyright
