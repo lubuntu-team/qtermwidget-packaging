@@ -1,3 +1,10 @@
+qtermwidget (2.1.0-0ubuntu4) questing; urgency=medium
+
+  * libqtermwidget6-2-dev: Add provides libqtermwidget-dev so we do not
+    need to maintain a build depends delta for texstudio.
+
+ -- Rik Mills <rikmills@kde.org>  Mon, 19 May 2025 10:27:03 +0100
+
 qtermwidget (2.1.0-0ubuntu3) plucky; urgency=medium
 
   * Update Standards-Version to 4.7.1, no changes needed.

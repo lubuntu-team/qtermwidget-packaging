@@ -44,6 +44,7 @@ Section: libdevel
 Depends: libqtermwidget6-2 (= ${binary:Version}), ${misc:Depends}
 Breaks: libqtermwidget5-1-dev
 Replaces: libqtermwidget5-1-dev
+Provides: libqtermwidget-dev
 Description: Terminal emulator widget for Qt 6 (development files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
