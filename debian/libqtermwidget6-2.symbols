@@ -215,13 +215,26 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
  _ZNK11QTermWidget14wordCharactersEv@Base 2.0.0
  (optional=templinst|arch=armhf riscv64)_ZNSt7__cxx1110_List_baseI10QByteArraySaIS1_EE8_M_clearEv@Base 2.0.0
- _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
- _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
- _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
- _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 2.2.0
+ (arch=riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=riscv64)_ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 2.2.0
+ (arch=riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=!riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=!riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=armhf)_ZTISt19_Sp_make_shared_tag@Base 2.2.0
+ (arch=armhf)_ZTISt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=!riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=!riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
  _ZTSSt19_Sp_make_shared_tag@Base 2.2.0
- _ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
- _ZThn40_N11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
+ (arch=!riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0
+ (arch=!armhf)_ZThn40_N11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
+ (arch=armhf)_ZTVSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ (arch=armhf)_ZThn20_N11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 2.2.0
  (c++)"non-virtual thunk to QTermWidget::bracketText(QString&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::bracketedPasteModeIsDisabled() const@Base" 1.2.0
