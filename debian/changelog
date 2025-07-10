@@ -1,3 +1,9 @@
+qtermwidget (2.2.0-0ubuntu1) questing; urgency=medium
+
+  * New upstream release.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 10 Jul 2025 12:38:35 -0500
+
 qtermwidget (2.1.0-0ubuntu4) questing; urgency=medium
 
   * libqtermwidget6-2-dev: Add provides libqtermwidget-dev so we do not
