@@ -2,6 +2,7 @@ qtermwidget (2.2.0-0ubuntu1) questing; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
+    - Update symbols file.
   * Update copyright file.
   * Bump Standards-Version to 4.7.2, no changes needed.
 

@@ -204,6 +204,7 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"QTermWidget::~QTermWidget()@Base" 0.6.0
  _ZN11QTermWidget14setEnvironmentERK5QListI7QStringE@Base 2.0.0
  _ZN11QTermWidget17setWordCharactersERK7QString@Base 2.0.0
+ _ZN11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
  _ZN11QTermWidget20setScrollBarPositionEN20QTermWidgetInterface17ScrollBarPositionE@Base 1.2.0
  _ZN11QTermWidget22getForegroundProcessIdEv@Base 1.4.0
  _ZN11QTermWidget24getAvailableColorSchemesEv@Base 1.2.0
@@ -214,6 +215,14 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
  _ZNK11QTermWidget14wordCharactersEv@Base 2.0.0
  (optional=templinst|arch=armhf riscv64)_ZNSt7__cxx1110_List_baseI10QByteArraySaIS1_EE8_M_clearEv@Base 2.0.0
+ _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ _ZTSSt19_Sp_make_shared_tag@Base 2.2.0
+ _ZTSSt23_Sp_counted_ptr_inplaceI6QTimerSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2.0
+ _ZThn40_N11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
+ _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 2.2.0
  (c++)"non-virtual thunk to QTermWidget::bracketText(QString&)@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::bracketedPasteModeIsDisabled() const@Base" 1.2.0
  (c++)"non-virtual thunk to QTermWidget::changeDir(QString const&)@Base" 1.2.0
