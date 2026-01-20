@@ -13,7 +13,7 @@ Build-Depends: cmake,
                libxkbcommon-dev (>= 0.5.0),
                lxqt-build-tools (>= 2.2.0),
                qt6-base-dev (>= 6.6.0)
-Standards-Version: 4.7.2
+Standards-Version: 4.7.3
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qtermwidget
