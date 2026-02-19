@@ -6,7 +6,7 @@ qtermwidget (2.3.0-0ubuntu1) resolute; urgency=medium
   * Update Standards-Version to 4.7.3, no changes needed.
   * Remove redundant 'Rules-Requires-Root: no' control line.
 
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Tue, 20 Jan 2026 17:03:37 -0600
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Thu, 19 Feb 2026 15:15:41 -0500
 
 qtermwidget (2.2.0-0ubuntu1) questing; urgency=medium
 
