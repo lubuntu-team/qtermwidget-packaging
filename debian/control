@@ -6,14 +6,13 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            Aaron Rainbolt <arraybolt3@gmail.com>
 Section: libs
-Priority: optional
 Build-Depends: cmake,
                debhelper-compat (= 13),
                libutf8proc-dev,
                libxkbcommon-dev (>= 0.5.0),
                lxqt-build-tools (>= 2.3.0),
                qt6-base-dev (>= 6.6.0)
-Standards-Version: 4.7.3
+Standards-Version: 4.7.4
 Vcs-Browser: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging
 Vcs-Git: https://git.lubuntu.me/Lubuntu/qtermwidget-packaging.git
 Debian-Vcs-Browser: https://salsa.debian.org/lxqt-team/qtermwidget
