@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.0.0 amd64 arm64 armhf ppc64el riscv64 s390x
+# SymbolsHelper-Confirmed: 2.4.0 amd64
 libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
 * Build-Depends-Package: libqtermwidget6-2-dev
  (c++)"Konsole::Emulation::Emulation()@Base" 0.16.1
@@ -81,7 +81,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"Konsole::RegExpFilter::HotSpot::activate(QString const&)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::HotSpot::capturedTexts() const@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::RegExpFilter()@Base" 0.16.1
- (c++)"Konsole::RegExpFilter::newHotSpot(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::process()@Base" 0.16.1
  (c++)"Konsole::RegExpFilter::regExp() const@Base" 0.16.1
  (c++)"Konsole::UrlFilter::CompleteUrlRegExp@Base" 0.16.1
@@ -96,7 +95,6 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  (c++)"Konsole::UrlFilter::UrlFilter()@Base" 0.16.1
  (c++)"Konsole::UrlFilter::activated(QUrl const&, bool)@Base" 0.16.1
  (c++)"Konsole::UrlFilter::metaObject() const@Base" 0.16.1
- (c++)"Konsole::UrlFilter::newHotSpot(int, int, int, int)@Base" 0.16.1
  (c++)"Konsole::UrlFilter::qt_metacall(QMetaObject::Call, int, void**)@Base" 0.16.1
  (c++)"Konsole::UrlFilter::qt_metacast(char const*)@Base" 0.16.1
  (c++)"Konsole::UrlFilter::staticMetaObject@Base" 0.16.1
@@ -207,13 +205,27 @@ libqtermwidget6.so.2 libqtermwidget6-2 #MINVER#
  _ZN11QTermWidget18autoHideMouseAfterEi@Base 2.2.0
  _ZN11QTermWidget20setScrollBarPositionEN20QTermWidgetInterface17ScrollBarPositionE@Base 1.2.0
  _ZN11QTermWidget22getForegroundProcessIdEv@Base 1.4.0
+ _ZN11QTermWidget23currentDirectoryChangedERK7QString@Base 2.4.0
  _ZN11QTermWidget24getAvailableColorSchemesEv@Base 1.2.0
  _ZN11QTermWidget7setArgsERK5QListI7QStringE@Base 2.0.0
+ _ZN7Konsole12RegExpFilter10newHotSpotEiiiiRK5QListI7QStringE@Base 2.4.0
+ _ZN7Konsole12RegExpFilter11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.4.0
+ _ZN7Konsole12RegExpFilter11qt_metacastEPKc@Base 2.4.0
+ _ZN7Konsole12RegExpFilter16staticMetaObjectE@Base 2.4.0
  _ZN7Konsole12RegExpFilter7HotSpot16setCapturedTextsERK5QListI7QStringE@Base 2.0.0
  _ZN7Konsole12RegExpFilter9setRegExpERK18QRegularExpression@Base 2.0.0
+ _ZN7Konsole6Filter5clearEv@Base 2.4.0
+ _ZN7Konsole9UrlFilter10newHotSpotEiiiiRK5QListI7QStringE@Base 2.4.0
+ _ZN7Konsole9UrlFilter5resetEv@Base 2.4.0
+ _ZN7Konsole9UrlFilter7processEv@Base 2.4.0
+ _ZN7Konsole9UrlFilterD0Ev@Base 2.4.0
+ _ZN7Konsole9UrlFilterD1Ev@Base 2.4.0
+ _ZN7Konsole9UrlFilterD2Ev@Base 2.4.0
  _ZNK11QTermWidget11historySizeEv@Base 1.1.0
  _ZNK11QTermWidget12createWidgetEi@Base 1.2.0
  _ZNK11QTermWidget14wordCharactersEv@Base 2.0.0
+ _ZNK7Konsole11FilterChain15getRegExpFilterERK7QString@Base 2.4.0
+ _ZNK7Konsole12RegExpFilter10metaObjectEv@Base 2.4.0
  (optional=templinst|arch=armhf riscv64)_ZNSt7__cxx1110_List_baseI10QByteArraySaIS1_EE8_M_clearEv@Base 2.0.0
  (arch=riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 2.2.0
  (arch=riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.2.0

@@ -2,6 +2,7 @@ qtermwidget (2.4.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
+    - Update symbols from amd64 build logs.
   * Update the upstream signing key.
   * Update Standards-Version to 4.7.4, dropping Priority: optional.
   * Update the copyright file.
