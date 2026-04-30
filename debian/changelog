@@ -1,4 +1,4 @@
-qtermwidget (2.4.0-0ubuntu1) UNRELEASED; urgency=medium
+qtermwidget (2.4.0-0ubuntu1) stonking; urgency=medium
 
   * New upstream release.
     - Bump build dependencies.
@@ -8,7 +8,7 @@ qtermwidget (2.4.0-0ubuntu1) UNRELEASED; urgency=medium
   * Update the copyright file.
   * Drop old Breaks/Replaces, we are now past an LTS.
 
- -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 13:26:45 -0500
+ -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 13:40:37 -0500
 
 qtermwidget (2.3.0-0ubuntu1) resolute; urgency=medium
 
