@@ -1,5 +1,6 @@
 qtermwidget (2.4.0-0ubuntu1) stonking; urgency=medium
 
+  [ Simon Quigley ]
   * New upstream release.
     - Bump build dependencies.
     - Update symbols from amd64 build logs.
@@ -8,7 +9,10 @@ qtermwidget (2.4.0-0ubuntu1) stonking; urgency=medium
   * Update the copyright file.
   * Drop old Breaks/Replaces, we are now past an LTS.
 
- -- Simon Quigley <tsimonq2@debian.org>  Thu, 30 Apr 2026 13:40:37 -0500
+  [ Aaron Rainbolt ]
+  * Add copyright entry for lib/color-schemes/Nord.colorscheme.
+
+ -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Wed, 06 May 2026 01:54:34 -0400
 
 qtermwidget (2.3.0-0ubuntu1) resolute; urgency=medium
 
