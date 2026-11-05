@@ -6,8 +6,8 @@ Uploaders: Alf Gaida <agaida@siduction.org>,
            Andrew Lee (李健秋) <ajqlee@debian.org>,
            Aaron Rainbolt <arraybolt3@gmail.com>
 Section: libs
-Build-Depends: cmake,
-               debhelper-compat (= 13),
+Build-Depends: debhelper-compat (= 14),
+               cmake,
                libutf8proc-dev,
                libxkbcommon-dev (>= 0.5.0),
                lxqt-build-tools (>= 2.5.0),
@@ -22,9 +22,7 @@ Homepage: https://github.com/lxqt/qtermwidget
 Package: libqtermwidget6-2
 Architecture: any
 Multi-Arch: same
-Depends: qtermwidget6-data (= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: qtermwidget6-data (= ${source:Version})
 Suggests: fonts-hack
 Pre-Depends: ${misc:Pre-Depends}
 Description: Terminal emulator widget for Qt 6 (shared libraries)
@@ -37,7 +35,7 @@ Package: libqtermwidget6-2-dev
 Architecture: any
 Multi-Arch: same
 Section: libdevel
-Depends: libqtermwidget6-2 (= ${binary:Version}), ${misc:Depends}
+Depends: libqtermwidget6-2 (= ${binary:Version})
 Provides: libqtermwidget-dev
 Description: Terminal emulator widget for Qt 6 (development files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
@@ -48,7 +46,6 @@ Description: Terminal emulator widget for Qt 6 (development files)
 Package: qtermwidget6-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
 Description: Terminal emulator widget for Qt 6 (data files)
  QTermWidget is a Unicode-enabled, embeddable Qt widget that can be used as
  built-in console or terminal emulation widget.
