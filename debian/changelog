@@ -1,11 +1,11 @@
-qtermwidget (2.5.0-0ubuntu1) UNRELEASED; urgency=medium
+qtermwidget (2.5.0-0ubuntu1) tenacious; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Update to debhelper-compat 14.
   * Update symbols from amd64 build logs.
 
- -- Simon Quigley <tsimonq2@debian.org>  Wed, 04 Nov 2026 20:23:58 -0600
+ -- Simon Quigley <tsimonq2@debian.org>  Wed, 04 Nov 2026 21:46:32 -0600
 
 qtermwidget (2.4.0-0ubuntu1) stonking; urgency=medium
 
