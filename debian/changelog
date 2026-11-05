@@ -3,6 +3,7 @@ qtermwidget (2.5.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release.
   * Update build dependencies.
   * Update to debhelper-compat 14.
+  * Update symbols from amd64 build logs.
 
  -- Simon Quigley <tsimonq2@debian.org>  Wed, 04 Nov 2026 20:23:58 -0600
 
